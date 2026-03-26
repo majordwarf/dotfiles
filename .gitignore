@@ -1,0 +1,7 @@
+# Build Artifacts
+.seed.hash
+seed.zsh*
+.zcompdump*
+.plugins.raw.zsh
+.completions.zsh
+.tool-completions.zsh*

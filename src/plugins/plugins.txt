@@ -1,0 +1,14 @@
+# Prompt (must load first, not deferrable)
+romkatv/powerlevel10k
+
+# Deferred loading support
+romkatv/zsh-defer kind:defer
+
+# Completions
+zsh-users/zsh-completions kind:fpath
+
+# Autosuggestions (deferred — activates on first keypress)
+zsh-users/zsh-autosuggestions kind:defer
+
+# Deferred plugins (load after first prompt renders)
+zsh-users/zsh-syntax-highlighting kind:defer
