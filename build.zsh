@@ -20,7 +20,7 @@ _COMPLETIONS="$SCRIPT_DIR/.completions.zsh"
 VERBOSE=0
 [[ "${1:-}" == "-v" || "${1:-}" == "--verbose" ]] && VERBOSE=1
 
-log() { (( VERBOSE )) && echo "  $1" }
+log() { (( VERBOSE )) && echo "  $1" || true }
 
 cleanup() { rm -f "$_PLUGINS_RAW" "$_COMPLETIONS" }
 trap cleanup EXIT
